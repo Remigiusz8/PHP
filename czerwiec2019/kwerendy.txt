@@ -1,0 +1,7 @@
+kw1 select nazwa, wystepowanie from ryby where styl_zycia=1;
+
+kw2 select ryby_id, wymiar_ochronny from okres_ochronny where wymiar_ochronny<50;
+
+kw3 select nazwa, akwen, wojewodztwo from ryby inner join lowisko on ryby.id=lowisko.ryby_id where rodzaj=2;
+
+kw4 alter table ryby add column dobowy_limit int;

@@ -1,0 +1,8 @@
+zapytanie 1: select imie, nazwisko from uczen;
+
+zapytanie 2: select imie, nazwisko from uczen where id=2;
+
+zapytanie 3: select ocena from ocena inner join uczen on ocena.uczen_id=uczen.id where ocena.przedmiot_id=1 and uczen.id=2;
+
+zapytanie 4: select avg(ocena) from ocena inner join uczen on
+ocena.uczen_id=uczen.id where ocena.przedmiot_id=1 and uczen.id=2;

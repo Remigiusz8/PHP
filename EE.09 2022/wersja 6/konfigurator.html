@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Style w JavaScript</title>
+    <link rel="stylesheet" href="styl6.css">
+</head>
+<body>
+    <div class="lewy"><h1>Konfigurator stylów</h1>
+        <p>Podaj kolor tła</p>
+        <button class="f" onclick="indigo()">Indigo</button>
+        <button class="s" onclick="steelblue()">SteelBlue</button>
+        <button class="t" onclick="olive()">Olive</button>
+        <p>Podaj kolor czcionki</p>
+        <select id="tekst" onclick="zmiana()">
+            <option>White</option>
+            <option>Tan</option>
+            <option>Bisque</option>
+            <option>Plum</option>
+        </select>
+        <p>podaj rozmiar czcionki w procentach</p>
+        <input type="number" placeholder="100" id="liczba">
+        <p>Czy rysunek ma mieć ramkę?</p>
+        <input type="checkbox" checked="checked">Rysuj ramkę
+        <p>Jaki jest typ punktora listy?</p>
+        <input type="radio" checked="checked">dysk
+        <input type="radio">kwadrat
+        <input type="radio">okrąg
+    </div>
+    <div class="prawy" id="kolor">
+        <img src="gibraltar.jpg" alt="półwysep Gibraltar">
+        <ul>
+            <li>element1</li>
+            <li>element2</li>
+            <li>element3</li>
+        </ul>
+        <p id="czcionka">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. </p>
+    </div>
+    <div class="stopka">Autor: Remigiusz Zając</div>
+    <script>
+        function indigo(){
+            kolor.style.backgroundColor="Indigo";
+        }
+        function steelblue(){
+            kolor.style.backgroundColor="steelblue";
+        }
+        function olive(){
+            kolor.style.backgroundColor="olive";
+        }
+        function zmiana(){
+
+            czcionka.style.fontSize=liczba.value + "%";
+
+            if (tekst.value=="White") {
+                czcionka.style.color="White";
+            } else if (tekst.value=="Tan") {
+                czcionka.style.color="Tan";
+            } else if (tekst.value=="Bisque") {
+                czcionka.style.color="Bisque";
+            } else if (tekst.value=="Plum") {
+                czcionka.style.color="Plum";
+            }
+        }
+        
+    </script>
+</body>
+</html>

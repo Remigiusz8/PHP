@@ -1,0 +1,7 @@
+1 create user 'Agnieszka'@'localhost' identified by 'haslo4';
+
+2 select avg(rocznik) from samochody where marka="opel";
+
+3 select samochody.marka, klienci.imie from samochody inner join wypozyczenia on samochody.id=wypozyczenia.samochody_id inner join klienci on wypozyczenia.klienci_id=klienci.id;
+
+4 alter table klasa drop column cena;

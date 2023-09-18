@@ -1,0 +1,7 @@
+kw1 select id, tytul, tresc from ogloszenie where kategoria=1;
+
+kw2 select telefon from uzytkownik inner join ogloszenie on uzytkownik.id=ogloszenie.uzytkownik_id where ogloszenie.id=1;
+
+kw3 create user 'moderator@localhost' identified by 'qwerty';
+
+kw4 grant delete, select on ogloszenia.ogloszenie to moderator;

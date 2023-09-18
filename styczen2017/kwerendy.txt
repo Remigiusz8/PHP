@@ -1,0 +1,5 @@
+zapytanie 1: select id, marka, model from samochody;
+
+zapytanie 2: select samochody.id, klient from zamowienia inner join samochody on zamowienia.Samochody_id=samochody.id;
+
+zapytanie 3: select * from samochody where marka="Fiat";

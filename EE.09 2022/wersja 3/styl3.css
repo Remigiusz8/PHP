@@ -1,0 +1,35 @@
+* {
+    font-family: arial;
+}
+.glewy, .gsr, .gprawy, .dlewy, .dsr, .dprawy {
+    background-color: saddlebrown;
+    color: white;
+    height: 100px;
+    float: left;
+}
+.glewy, .dlewy {
+    width: 55%;
+    font-size: 120%;
+}
+.gsr, .dsr {
+    width: 25%;
+}
+.gprawy, .dprawy {
+    width: 20%;
+    text-align: right;
+}
+.glowny {
+    clear: both;
+    background-color: snow;
+    padding: 70px;
+}
+a {
+    border: 2px dotted saddlebrown;
+    background-color: snow;
+    color: saddlebrown;
+    padding: 20px;
+    line-height: 100px;
+}
+ol {
+    list-style: lower-alpha;
+}

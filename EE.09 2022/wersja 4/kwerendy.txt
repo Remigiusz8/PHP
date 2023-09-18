@@ -1,0 +1,7 @@
+1 create table uzytkownicy (id int unsigned primary key auto_increment not null, login varchar(50), haslo varchar(50));
+
+2 insert into uzytkownicy values (null, "Grzegorz", "g");
+
+3 select login from uzytkownicy;
+
+4 select id, login from uzytkownicy where haslo like "4%";

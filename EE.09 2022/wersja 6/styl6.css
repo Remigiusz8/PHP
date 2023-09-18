@@ -1,0 +1,42 @@
+* {
+    font-family: georgia;
+}
+.lewy {
+    background-color: maroon;
+    color: white;
+    height: 600px;
+    width: 30%;
+    float: left;
+}
+.prawy {
+    background-color: maroon;
+    color: white;
+    height: 600px;
+    width: 70%;
+    overflow-y: auto;
+    float: left;
+}
+.stopka {
+    background-color: dimgray;
+    color: white;
+    clear: both;
+}
+img, ul {
+    display: inline-block;
+}
+p {
+    padding: 10px;
+}
+img {
+    padding: 10px;
+    border: 1px solid white;
+}
+.f {
+    background-color: indigo;
+}
+.s {
+    background-color: steelblue;
+}
+.t {
+    background-color: olive;
+}
