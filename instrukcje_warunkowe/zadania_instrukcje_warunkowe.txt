@@ -1,0 +1,34 @@
+Utwórz następujące skrypty:
+
+1.    Obliczający wynik równania x = a/b. Wynik wypisuje na ekran. W przypadku, kiedy nie można obliczyć wyniku, wyświetli stosowny komunikat.
+
+2.    Obliczający wynik równania x = a/b + c/d . Wynik wypisuje na ekran. W przypadku, kiedy nie można obliczyć wyniku, wyświetli stosowny komunikat.
+
+3.    Obliczający wynik równania x = (a+6) / (b – 4). Wynik wypisuje na ekran. W przypadku, kiedy nie można obliczyć wyniku, wyświetli stosowny komunikat.
+
+4.    Sprawdzający czy wprowadzona liczba jest parzysta. Na ekran wypisuje stosowny komunikat.
+
+5.    Wczytujący dwie liczby. Sprawdza czy pierwsza jest podzielna przez drugą. Na ekran wypisuje stosowny komunikat.
+
+6.    Sprawdzający czy wprowadzona liczba jest dodatnia, ujemna czy równa 0. Na ekran wypisuje stosowny komunikat.
+
+7.    Wypisujący na ekran największą spośród trzech wprowadzonych liczb.
+
+8.    Wypisujący trzy wprowadzone liczby w kolejności rosnącej.
+
+9.    Sprawdzający na podstawie daty urodzenia i dzisiejszej daty czy osoba jest pełnoletnia.
+
+10.   Sprawdzający czy dany znak jest dużą literą, małą literą, cyfrą, czy innym znakiem.
+
+11.   Sprawdzający czy dana trzycyfrowa liczba jest palindromem.
+
+12.   Sprawdzający czy poszczególne cyfry maksymalnie dwucyfrowej liczby są parzyste lub ich suma jest równa 4.
+
+13.    Wystawiający ocenę na podstawie podanej liczby punktów. Wykorzystaj następujące kryteria oceny:
+
+    0 – 29 pkt – ocena niedostateczna
+    30 – 59 pkt – ocena dopuszczająca
+    60 – 74 pkt – ocena dostateczna
+    75 – 89 pkt – ocena dobra
+    90 – 99 pkt – ocena bardzo dobra
+    100 pkt – ocena celująca

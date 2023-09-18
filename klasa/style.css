@@ -1,0 +1,32 @@
+body {
+	background-color: #ae61e8;
+	font-family: Arial;
+	text-align: center;	
+}
+
+option {
+	font-size: 20;
+	color: red;
+	background-color: yellow;
+}
+
+select {
+	font-size: 20;
+	color: blue;
+	background-color: gray;
+}
+
+input[type=submit] {
+	font-size: 30;
+	font-family: Times;
+	background-color: red;
+	cursor: pointer;
+	border: 2px solid green;
+}
+p {
+	font-family: Times;
+	font-size: 30;
+	text-decoration: underline;
+}
+
+
